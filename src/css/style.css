@@ -1,0 +1,67 @@
+body {
+    font-family: "yugioh", serif;
+    background: black url(../images/fundo-site.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.cartao {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+} 
+
+.cartao.selecionado {
+    opacity: 1;
+}
+
+.lista-personagens {
+    width: 300px;
+    height: 500px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cartao .carta-img {
+    max-width: 260px;
+    align-self: center;
+}
+
+button {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2);
+}
+
+.btn-seta.btn-voltar {
+    transform: rotateY(180deg);
+}
+.btn-seta:hover {
+    background-color: rgba(142, 87, 214, 0.699);
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+}
