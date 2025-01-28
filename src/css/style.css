@@ -54,9 +54,6 @@ button {
     box-shadow: rgba(100, 100, 111, 0.2);
 }
 
-.btn-seta.btn-voltar {
-    transform: rotateY(180deg);
-}
 .btn-seta:hover {
     background-color: rgba(142, 87, 214, 0.699);
 }
