@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    body {
+        background-position:center;
+        padding: 0 15px;
+    }
+
+    .slider {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 496px) {
+    .list-personagens {
+        width: 250px;
+        position: relative;
+    } 
+
+    .cartao {
+        top: 45%;
+        left: 50%;
+
+        transform: translate(-75%, -50%);
+    }
+    .carta-img {
+        width:150%;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .btn-seta {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    #btn-avancar {
+        right: 30%;
+    }
+
+    #btn-voltar {
+        left: 30%;
+    }
+}
